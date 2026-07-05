@@ -1,0 +1,13 @@
+Python 3.13
+PyTorch 2.3
+XGBoost
+statsmodels
+pmdarima
+Prophet
+arch
+scikit-learn
+yfinance
+ta
+MLflow
+Streamlit
+Plotly

@@ -1,0 +1,23 @@
+# 1. Veri çek
+python -m src.data.fetch_data
+
+# 2. Temizle
+python -m src.data.preprocess
+
+# 3. Teknik indikatörler ekle
+python -m src.data.technical_indicators
+
+# 4. Modelleri eğit
+python -m src.models.arima_model
+python -m src.models.sarima_model
+python -m src.models.prophet_model
+python -m src.models.lstm_model
+python -m src.models.gru_model
+python -m src.models.xgboost_model
+python -m src.models.garch_model
+
+# 5. MLflow arayüzü
+mlflow ui
+
+# 6. Streamlit arayüzü
+streamlit run app.py
